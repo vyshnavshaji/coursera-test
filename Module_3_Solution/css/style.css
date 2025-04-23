@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-default {
+    background-color: rgb(120, 120, 120);
+    border: 2px solid #333;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    border: 2px solid #333;
+    border-radius: 0;
+    background-color: #ddd !important;
+    margin: 0 !important;  /* Removes extra space above/below dropdown */
+    padding: 0 !important;
+}
+
+/* Navbar Links Styling */
+.navbar-nav > li > a {
+    padding: 10px 15px;
+    background-color: #ddd !important;
+    color: #000 !important;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    display: block;
+}
+
+/* Remove bottom border from last dropdown item */
+.navbar-nav > li:last-child > a {
+    border-bottom: none;
+}
+
+/* Hover Effect */
+.navbar-nav > li > a:hover {
+    background-color: #bbb !important;
+}
+
+/* Tall Section Styling */
+.section-container {
+    margin: 20px;
+}
+
+.section-tall {
+    height: 1000px;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    padding: 20px;
+}
